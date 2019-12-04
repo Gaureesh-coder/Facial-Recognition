@@ -1,0 +1,17 @@
+https://www.pytorials.com/face-recognition-using-opencv-part-2/
+
+
+Database Queries: 
+https://docs.djangoproject.com/en/2.2/topics/db/queries/
+
+
+Virtual Env: myopencv
+
+Github reference:
+https://github.com/manjillama/facial-recognition-python-django/blob/master/faceRecog/views.py
+
+
+Connecting to Server:
+
+https://medium.com/@aakashchotrani/networked-face-detection-recognition-2b62b790810e
+https://github.com/ragulin/face-recognition-server

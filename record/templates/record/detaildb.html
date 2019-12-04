@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+
+    <h1>Record: </h1>
+    {{names}}
+    <br />
+    <h4>No of Images: </h4> 
+    {{images}}
+
+    <br />
+    <h4>Face Id: </h4>
+    {{face_id}}
+
+    <br />
+    {{trained_faces}}
+
+
+    <br />
+    <p>Ids</p>
+    {{ids}}
+</div>
+
+{% endblock %}

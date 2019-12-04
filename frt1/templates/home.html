@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html lang="en">
+    {% load staticfiles %}
+
+
+<h1>Facial Recognition Django</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 text-center">
+            <a href="{% url 'recorddb' %}"><img src="{% static 'camera1.png' %}" class="img-fluid" height="150" width="150" /><br /><h2>Record</h2></a>
+        </div>
+        <div class="col-4 text-center">
+            <a href="{% url 'play' %}"><img src="{% static 'play.png' %}" class="img-fluid" height="150" width="150" /><br /><h2>Play</h2></a>
+        </div>
+    </div>
+   
+
+</div>  
+<br />
+{% endblock %}
+
+</html>
